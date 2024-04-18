@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="Team" fetch="https://github.com/Team-NoobMaster69" />
+    <remote name="Org" fetch="https://github.com/SM6225-Project" />
+    <remote name="Lineage" fetch="https://github.com/LineageOS" />
+    <remove-project name="android_vendor_aospa"/>
+
+    <!-- Device-Tree && Device-Common -->
+    <project path="device/motorola/devon" name="android_device_motorola_devon" remote="Team" revision="uvite"  />
+    <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="Team" revision="uvite"  />
+
+    <!-- Vendor && Vendor-Common -->
+    <project path="vendor/motorola/devon" name="proprietary_vendor_motorola_devon" remote="Org" revision="Fourteen"  />
+    <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Org" revision="Fourteen"  />
+    
+    <!-- Kernel && Dependencies -->
+    <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="Lineage" revision="lineage-21"  />
+    <project path="hardware/motorola" name="hardware_motorola" remote="Lineage" revision="Org"  />
+    <project path="vendor/aospa" name="android_vendor_aospa" remote="Org" revision="uvite"  />
+    
+</manifest>
