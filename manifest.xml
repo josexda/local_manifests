@@ -14,7 +14,7 @@
     <!-- Vendor e Vendor-Common -->
     <project path="vendor/motorola/devon" name="proprietary_vendor_motorola_devon" remote="Org" revision="Fourteen"  />
     <project path="vendor/motorola/hawao" name="proprietary_vendor_motorola_hawao" remote="Org" revision="Fourteen"  />
-    <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="Vendor" revision="Fourteen"  />
+    <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="Org" revision="Fourteen"  />
     <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Vendor" revision="lineage-21"  />
     
     <!-- Kernel e Dependências -->
