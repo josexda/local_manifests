@@ -11,14 +11,13 @@
     <project path="device/motorola/sm6225-common" name="device_motorola_sm6225-common" remote="Dt" revision="Fifteen"  />
 
     <!-- Vendor e Vendor-Common -->
-    <project path="vendor/motorola/devon" name="proprietary_vendor_motorola_devon" remote="Vendor" revision="lineage-22.1"  />
-    <project path="vendor/motorola/hawao" name="proprietary_vendor_motorola_hawao" remote="Vendor" revision="lineage-22.1"  />
-    <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="Vendor" revision="lineage-22.1"  />
-    <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Vendor" revision="lineage-22.1"  />
+    <project path="vendor/motorola/devon" name="proprietary_vendor_motorola_devon" remote="Vendor" revision="lineage-22.2"  />
+    <project path="vendor/motorola/hawao" name="proprietary_vendor_motorola_hawao" remote="Vendor" revision="lineage-22.2"  />
+    <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="Vendor" revision="lineage-22.2"  />
+    <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Vendor" revision="lineage-22.2"  />
     
     <!-- Kernel e Dependências -->
     <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="Dt" revision="Fifteen"  />
-    <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-21"  />
-    <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-22.1"  />
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-22.2"  />
 
 </manifest>
